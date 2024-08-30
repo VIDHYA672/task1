@@ -1,0 +1,115 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #8cf28f; /* Green background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+#hero {
+    background-color: #282C34; /* Dark gray background */
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+#hero button {
+    background-color: #61DAFB; /* Light blue background */
+    color: #282C34; /* Dark text */
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#hero button:hover {
+    background-color: #21A1F1; /* Slightly darker blue */
+}
+
+/* Features Section Styling */
+#features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.feature-box {
+    background-color:rgb(152, 28, 132);
+    width: 30%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature-box h2 {
+    color: rgb(79, 154, 164);
+    margin-bottom: 15px;
+}
+
+.feature-box p {
+    color: rgb(57, 167, 173);
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background-color: crimson;
+    color: rgb(124, 253, 4);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
